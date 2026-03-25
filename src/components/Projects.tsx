@@ -27,7 +27,7 @@ function Projects() {
           </div>
 
           {/* Other cards */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12 }}>
+          <div className="other-projects" style={{ display: "grid", gap: 12 }}>
             {others.map((p) => <SmallCard key={p.name} project={p} />)}
           </div>
         </div>
@@ -35,10 +35,12 @@ function Projects() {
       <style>{`
         @media (max-width: 1024px) {
           #projects .reveal > div:nth-child(3) { grid-template-columns: repeat(2, 1fr) !important; }
+          .other-projects { grid-template-columns: repeat(4, 1fr) !important; }
         }
         @media (max-width: 768px) {
           #projects .reveal > div:nth-child(2) { grid-template-columns: 1fr !important; }
           #projects .reveal > div:nth-child(3) { grid-template-columns: 1fr 1fr !important; }
+          .other-projects { grid-template-columns: repeat(1, 1fr) !important; }
         }
       `}</style>
     </section>
