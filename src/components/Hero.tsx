@@ -53,7 +53,7 @@ function Hero() {
         {/* Description */}
         <p style={{ ...fadeUp(0.55), maxWidth: 560, color: C.muted, lineHeight: 1.8, fontSize: 16, marginBottom: 36 }}>
           Over <strong style={{ color: C.paper }}>7.2 years</strong> of expertise crafting high-performance web applications. Specializing in{" "}
-          <strong style={{ color: C.paper }}>React, Next.js & TypeScript</strong> — turning complex problems into elegant, scalable solutions.
+          <strong style={{ color: C.paper }}>Angular, & TypeScript</strong> — turning complex problems into elegant, scalable solutions.
         </p>
 
         {/* CTA Buttons */}

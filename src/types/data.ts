@@ -126,8 +126,8 @@ export const PROJECTS: Project[] = [
 
 export const SKILLS: Skill[] = [
   { name: "JavaScript", level: 95 },
-  { name: "ReactJS", level: 92 },
-  { name: "Next.js", level: 85 },
+  { name: "Angular", level: 92 },
+  // { name: "Next.js", level: 85 },
   { name: "TypeScript", level: 75 },
   { name: "HTML / CSS", level: 92 },
   { name: "Node.js", level: 75 },
@@ -136,14 +136,14 @@ export const SKILLS: Skill[] = [
 ];
 
 export const TOOLS = [
-  "React", "Next.js", "TypeScript", "JavaScript", "Node.js",
+  "Angular", "TypeScript", "JavaScript", "Node.js",
   "GraphQL", "MySQL", "Tailwind", "Material UI", "Bootstrap",
   "Firebase", "Git", "JIRA", "REST APIs", "Agile / Scrum",
 ];
 
 export const ROLES = [
   "Senior Frontend Engineer",
-  "React Specialist",
-  "Next.js Developer",
+  "Angular Specialist",
+  // "Next.js Developer",
   "UI Architect",
 ];
